@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EC4975D2751030D00F779F4 /* SharePlayTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC4974D2751030B00F779F4 /* SharePlayTutorialApp.swift */; };
+		7EC4975F2751030D00F779F4 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC4974E2751030B00F779F4 /* GameView.swift */; };
+		7EC497602751030D00F779F4 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC4974E2751030B00F779F4 /* GameView.swift */; };
+		7EC497612751030D00F779F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EC4974F2751030D00F779F4 /* Assets.xcassets */; };
+		7EC497622751030D00F779F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EC4974F2751030D00F779F4 /* Assets.xcassets */; };
+		7EC497742751734100F779F4 /* SharePlayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC497732751734100F779F4 /* SharePlayModel.swift */; };
+		7EC497772751738900F779F4 /* SharePlayActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC497762751738900F779F4 /* SharePlayActivity.swift */; };
+		7EC49779275173D100F779F4 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC49778275173D100F779F4 /* GameState.swift */; };
+		7EC4977C2751740B00F779F4 /* SharePlayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC4977B2751740B00F779F4 /* SharePlayViewModel.swift */; };
+		7EC4977E2751743C00F779F4 /* HUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC4977D2751743C00F779F4 /* HUDView.swift */; };
+		7EC497812751750400F779F4 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC497802751750400F779F4 /* Color+Extensions.swift */; };
+		7EC497832751758500F779F4 /* PlayersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC497822751758500F779F4 /* PlayersView.swift */; };
+		7EC49785275175E100F779F4 /* GameFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC49784275175E100F779F4 /* GameFieldView.swift */; };
+		7EC49789275175F400F779F4 /* HUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC4977D2751743C00F779F4 /* HUDView.swift */; };
+		7EC4978A275175F400F779F4 /* PlayersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC497822751758500F779F4 /* PlayersView.swift */; };
+		7EC4978B275175F400F779F4 /* GameFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC49784275175E100F779F4 /* GameFieldView.swift */; };
+		7EC4978C275175F800F779F4 /* SharePlayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC497732751734100F779F4 /* SharePlayModel.swift */; };
+		7EC4978D275175FB00F779F4 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC497802751750400F779F4 /* Color+Extensions.swift */; };
+		7EC497902751760100F779F4 /* SharePlayTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC4974D2751030B00F779F4 /* SharePlayTutorialApp.swift */; };
+		7EC497912751760100F779F4 /* SharePlayActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC497762751738900F779F4 /* SharePlayActivity.swift */; };
+		7EC497922751760100F779F4 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC49778275173D100F779F4 /* GameState.swift */; };
+		7EC497932751760300F779F4 /* SharePlayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC4977B2751740B00F779F4 /* SharePlayViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7EC4974D2751030B00F779F4 /* SharePlayTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePlayTutorialApp.swift; sourceTree = "<group>"; };
+		7EC4974E2751030B00F779F4 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		7EC4974F2751030D00F779F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EC497542751030D00F779F4 /* SharePlayTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharePlayTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC4975A2751030D00F779F4 /* SharePlayTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharePlayTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC4975C2751030D00F779F4 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		7EC4976B27514AF900F779F4 /* SharePlayTutorial (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SharePlayTutorial (iOS).entitlements"; sourceTree = "<group>"; };
+		7EC497732751734100F779F4 /* SharePlayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePlayModel.swift; sourceTree = "<group>"; };
+		7EC497762751738900F779F4 /* SharePlayActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePlayActivity.swift; sourceTree = "<group>"; };
+		7EC49778275173D100F779F4 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		7EC4977B2751740B00F779F4 /* SharePlayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePlayViewModel.swift; sourceTree = "<group>"; };
+		7EC4977D2751743C00F779F4 /* HUDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDView.swift; sourceTree = "<group>"; };
+		7EC497802751750400F779F4 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		7EC497822751758500F779F4 /* PlayersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersView.swift; sourceTree = "<group>"; };
+		7EC49784275175E100F779F4 /* GameFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameFieldView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EC497512751030D00F779F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC497572751030D00F779F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EC497472751030B00F779F4 = {
+			isa = PBXGroup;
+			children = (
+				7EC4976B27514AF900F779F4 /* SharePlayTutorial (iOS).entitlements */,
+				7EC4974C2751030B00F779F4 /* Shared */,
+				7EC4975B2751030D00F779F4 /* macOS */,
+				7EC497552751030D00F779F4 /* Products */,
+				7EC4976D2751725B00F779F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7EC4974C2751030B00F779F4 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7EC4974F2751030D00F779F4 /* Assets.xcassets */,
+				7EC49778275173D100F779F4 /* GameState.swift */,
+				7EC497762751738900F779F4 /* SharePlayActivity.swift */,
+				7EC4974D2751030B00F779F4 /* SharePlayTutorialApp.swift */,
+				7EC4977F275174E000F779F4 /* Extensions */,
+				7EC497722751733500F779F4 /* Models */,
+				7EC497752751735C00F779F4 /* Views */,
+				7EC4977A275173F400F779F4 /* ViewModels */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		7EC497552751030D00F779F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EC497542751030D00F779F4 /* SharePlayTutorial.app */,
+				7EC4975A2751030D00F779F4 /* SharePlayTutorial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EC4975B2751030D00F779F4 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				7EC4975C2751030D00F779F4 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		7EC4976D2751725B00F779F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7EC497722751733500F779F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7EC497732751734100F779F4 /* SharePlayModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7EC497752751735C00F779F4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7EC49784275175E100F779F4 /* GameFieldView.swift */,
+				7EC4974E2751030B00F779F4 /* GameView.swift */,
+				7EC4977D2751743C00F779F4 /* HUDView.swift */,
+				7EC497822751758500F779F4 /* PlayersView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7EC4977A275173F400F779F4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7EC4977B2751740B00F779F4 /* SharePlayViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7EC4977F275174E000F779F4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7EC497802751750400F779F4 /* Color+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EC497532751030D00F779F4 /* SharePlayTutorial (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EC497652751030D00F779F4 /* Build configuration list for PBXNativeTarget "SharePlayTutorial (iOS)" */;
+			buildPhases = (
+				7EC497502751030D00F779F4 /* Sources */,
+				7EC497512751030D00F779F4 /* Frameworks */,
+				7EC497522751030D00F779F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SharePlayTutorial (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "SharePlayTutorial (iOS)";
+			productReference = 7EC497542751030D00F779F4 /* SharePlayTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7EC497592751030D00F779F4 /* SharePlayTutorial (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EC497682751030D00F779F4 /* Build configuration list for PBXNativeTarget "SharePlayTutorial (macOS)" */;
+			buildPhases = (
+				7EC497562751030D00F779F4 /* Sources */,
+				7EC497572751030D00F779F4 /* Frameworks */,
+				7EC497582751030D00F779F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SharePlayTutorial (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "SharePlayTutorial (macOS)";
+			productReference = 7EC4975A2751030D00F779F4 /* SharePlayTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EC497482751030B00F779F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					7EC497532751030D00F779F4 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					7EC497592751030D00F779F4 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 7EC4974B2751030B00F779F4 /* Build configuration list for PBXProject "SharePlayTutorial" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EC497472751030B00F779F4;
+			productRefGroup = 7EC497552751030D00F779F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EC497532751030D00F779F4 /* SharePlayTutorial (iOS) */,
+				7EC497592751030D00F779F4 /* SharePlayTutorial (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EC497522751030D00F779F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC497612751030D00F779F4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC497582751030D00F779F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC497622751030D00F779F4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EC497502751030D00F779F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC4977E2751743C00F779F4 /* HUDView.swift in Sources */,
+				7EC4977C2751740B00F779F4 /* SharePlayViewModel.swift in Sources */,
+				7EC497832751758500F779F4 /* PlayersView.swift in Sources */,
+				7EC497772751738900F779F4 /* SharePlayActivity.swift in Sources */,
+				7EC497812751750400F779F4 /* Color+Extensions.swift in Sources */,
+				7EC4975F2751030D00F779F4 /* GameView.swift in Sources */,
+				7EC49779275173D100F779F4 /* GameState.swift in Sources */,
+				7EC49785275175E100F779F4 /* GameFieldView.swift in Sources */,
+				7EC4975D2751030D00F779F4 /* SharePlayTutorialApp.swift in Sources */,
+				7EC497742751734100F779F4 /* SharePlayModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC497562751030D00F779F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC497932751760300F779F4 /* SharePlayViewModel.swift in Sources */,
+				7EC497912751760100F779F4 /* SharePlayActivity.swift in Sources */,
+				7EC49789275175F400F779F4 /* HUDView.swift in Sources */,
+				7EC497602751030D00F779F4 /* GameView.swift in Sources */,
+				7EC4978B275175F400F779F4 /* GameFieldView.swift in Sources */,
+				7EC4978D275175FB00F779F4 /* Color+Extensions.swift in Sources */,
+				7EC4978A275175F400F779F4 /* PlayersView.swift in Sources */,
+				7EC497922751760100F779F4 /* GameState.swift in Sources */,
+				7EC497902751760100F779F4 /* SharePlayTutorialApp.swift in Sources */,
+				7EC4978C275175F800F779F4 /* SharePlayModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7EC497632751030D00F779F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7EC497642751030D00F779F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7EC497662751030D00F779F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SharePlayTutorial (iOS).entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = at.tutorial.SharePlayTutorial;
+				PRODUCT_NAME = SharePlayTutorial;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EC497672751030D00F779F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SharePlayTutorial (iOS).entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = at.tutorial.SharePlayTutorial;
+				PRODUCT_NAME = SharePlayTutorial;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EC497692751030D00F779F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = at.tutorial.SharePlayTutorial;
+				PRODUCT_NAME = SharePlayTutorial;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7EC4976A2751030D00F779F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = at.tutorial.SharePlayTutorial;
+				PRODUCT_NAME = SharePlayTutorial;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EC4974B2751030B00F779F4 /* Build configuration list for PBXProject "SharePlayTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EC497632751030D00F779F4 /* Debug */,
+				7EC497642751030D00F779F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EC497652751030D00F779F4 /* Build configuration list for PBXNativeTarget "SharePlayTutorial (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EC497662751030D00F779F4 /* Debug */,
+				7EC497672751030D00F779F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EC497682751030D00F779F4 /* Build configuration list for PBXNativeTarget "SharePlayTutorial (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EC497692751030D00F779F4 /* Debug */,
+				7EC4976A2751030D00F779F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EC497482751030B00F779F4 /* Project object */;
+}
