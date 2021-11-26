@@ -7,6 +7,6 @@
 
 import Foundation
 
-struct SharePlayModel: Codable {
+struct SharePlayModel {
     var playersYOffset: Double = 0
 }

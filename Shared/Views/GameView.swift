@@ -16,10 +16,6 @@ struct GameView: View {
             GameFieldView(viewModel: viewModel)
             PlayersView(viewModel: viewModel)
             HUDView(viewModel: viewModel)
-        }.task {
-            for await session in SharePlayActivity.sessions() {
-                viewModel.configureGroupSession(session)
-            }
         }
     }
 }

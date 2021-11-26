@@ -13,7 +13,6 @@
 		7EC497612751030D00F779F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EC4974F2751030D00F779F4 /* Assets.xcassets */; };
 		7EC497622751030D00F779F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EC4974F2751030D00F779F4 /* Assets.xcassets */; };
 		7EC497742751734100F779F4 /* SharePlayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC497732751734100F779F4 /* SharePlayModel.swift */; };
-		7EC497772751738900F779F4 /* SharePlayActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC497762751738900F779F4 /* SharePlayActivity.swift */; };
 		7EC49779275173D100F779F4 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC49778275173D100F779F4 /* GameState.swift */; };
 		7EC4977C2751740B00F779F4 /* SharePlayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC4977B2751740B00F779F4 /* SharePlayViewModel.swift */; };
 		7EC4977E2751743C00F779F4 /* HUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC4977D2751743C00F779F4 /* HUDView.swift */; };
@@ -26,7 +25,6 @@
 		7EC4978C275175F800F779F4 /* SharePlayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC497732751734100F779F4 /* SharePlayModel.swift */; };
 		7EC4978D275175FB00F779F4 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC497802751750400F779F4 /* Color+Extensions.swift */; };
 		7EC497902751760100F779F4 /* SharePlayTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC4974D2751030B00F779F4 /* SharePlayTutorialApp.swift */; };
-		7EC497912751760100F779F4 /* SharePlayActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC497762751738900F779F4 /* SharePlayActivity.swift */; };
 		7EC497922751760100F779F4 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC49778275173D100F779F4 /* GameState.swift */; };
 		7EC497932751760300F779F4 /* SharePlayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC4977B2751740B00F779F4 /* SharePlayViewModel.swift */; };
 /* End PBXBuildFile section */
@@ -40,7 +38,6 @@
 		7EC4975C2751030D00F779F4 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		7EC4976B27514AF900F779F4 /* SharePlayTutorial (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SharePlayTutorial (iOS).entitlements"; sourceTree = "<group>"; };
 		7EC497732751734100F779F4 /* SharePlayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePlayModel.swift; sourceTree = "<group>"; };
-		7EC497762751738900F779F4 /* SharePlayActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePlayActivity.swift; sourceTree = "<group>"; };
 		7EC49778275173D100F779F4 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 		7EC4977B2751740B00F779F4 /* SharePlayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePlayViewModel.swift; sourceTree = "<group>"; };
 		7EC4977D2751743C00F779F4 /* HUDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDView.swift; sourceTree = "<group>"; };
@@ -83,7 +80,6 @@
 			children = (
 				7EC4974F2751030D00F779F4 /* Assets.xcassets */,
 				7EC49778275173D100F779F4 /* GameState.swift */,
-				7EC497762751738900F779F4 /* SharePlayActivity.swift */,
 				7EC4974D2751030B00F779F4 /* SharePlayTutorialApp.swift */,
 				7EC4977F275174E000F779F4 /* Extensions */,
 				7EC497722751733500F779F4 /* Models */,
@@ -257,7 +253,6 @@
 				7EC4977E2751743C00F779F4 /* HUDView.swift in Sources */,
 				7EC4977C2751740B00F779F4 /* SharePlayViewModel.swift in Sources */,
 				7EC497832751758500F779F4 /* PlayersView.swift in Sources */,
-				7EC497772751738900F779F4 /* SharePlayActivity.swift in Sources */,
 				7EC497812751750400F779F4 /* Color+Extensions.swift in Sources */,
 				7EC4975F2751030D00F779F4 /* GameView.swift in Sources */,
 				7EC49779275173D100F779F4 /* GameState.swift in Sources */,
@@ -272,7 +267,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EC497932751760300F779F4 /* SharePlayViewModel.swift in Sources */,
-				7EC497912751760100F779F4 /* SharePlayActivity.swift in Sources */,
 				7EC49789275175F400F779F4 /* HUDView.swift in Sources */,
 				7EC497602751030D00F779F4 /* GameView.swift in Sources */,
 				7EC4978B275175F400F779F4 /* GameFieldView.swift in Sources */,

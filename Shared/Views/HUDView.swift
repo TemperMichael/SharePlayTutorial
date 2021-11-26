@@ -38,7 +38,7 @@ struct HUDView: View {
                 .frame(maxWidth: .infinity)
 
             Button(action: {
-                viewModel.startSharing()
+                // TODO: Start sharing here
             }) {
                 Image(systemName: "shareplay")
                     .resizable()
