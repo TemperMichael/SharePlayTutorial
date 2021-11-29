@@ -39,7 +39,8 @@ struct GameFieldView: View {
             
             Rectangle()
                 .frame(height: viewModel.gameHoleSize)
-                .foregroundColor(.primary)
+                .foregroundColor(.background)
+                .colorInvert()
             
             Spacer()
             
