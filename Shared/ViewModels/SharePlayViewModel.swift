@@ -88,7 +88,7 @@ class SharePlayViewModel: ObservableObject {
             do {
                 try await messenger?.send(model)
             } catch {
-                print("Send cards failed: \(error)")
+                print("Send SharePlayModel failed: \(error)")
             }
         }
     }
