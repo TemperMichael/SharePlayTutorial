@@ -5,11 +5,14 @@
 //  Created by Michael Temper on 26.11.21.
 //
 
+import GroupActivities
 import SwiftUI
 
 struct HUDView: View {
 
     @ObservedObject var viewModel: SharePlayViewModel
+    @StateObject var groupStateObserver = GroupStateObserver()
+    @State var isActivitySharingSheetPresented = false
 
     var body: some View {
         HStack {
@@ -38,7 +41,11 @@ struct HUDView: View {
                 .frame(maxWidth: .infinity)
 
             Button(action: {
-                viewModel.startSharing()
+                if groupStateObserver.isEligibleForGroupSession {
+                    viewModel.startSharing()
+                } else {
+                    isActivitySharingSheetPresented = true
+                }
             }) {
                 Image(systemName: "shareplay")
                     .resizable()
@@ -52,6 +59,11 @@ struct HUDView: View {
             .buttonStyle(.plain)
         }
         .padding(10)
+#if os(iOS)
+        .sheet(isPresented: $isActivitySharingSheetPresented) {
+            ActivitySharingViewController(activity: SharePlayActivity())
+        }
+#endif
     }
 }
 

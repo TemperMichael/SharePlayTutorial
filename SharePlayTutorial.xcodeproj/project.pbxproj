@@ -29,6 +29,7 @@
 		7EC497912751760100F779F4 /* SharePlayActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC497762751738900F779F4 /* SharePlayActivity.swift */; };
 		7EC497922751760100F779F4 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC49778275173D100F779F4 /* GameState.swift */; };
 		7EC497932751760300F779F4 /* SharePlayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC4977B2751740B00F779F4 /* SharePlayViewModel.swift */; };
+		7EDD79972A361692008C3A55 /* ActivitySharingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD79962A361692008C3A55 /* ActivitySharingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		7EC497802751750400F779F4 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		7EC497822751758500F779F4 /* PlayersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersView.swift; sourceTree = "<group>"; };
 		7EC49784275175E100F779F4 /* GameFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameFieldView.swift; sourceTree = "<group>"; };
+		7EDD79962A361692008C3A55 /* ActivitySharingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitySharingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				7EC4974E2751030B00F779F4 /* GameView.swift */,
 				7EC4977D2751743C00F779F4 /* HUDView.swift */,
 				7EC497822751758500F779F4 /* PlayersView.swift */,
+				7EDD79962A361692008C3A55 /* ActivitySharingViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				7EC497832751758500F779F4 /* PlayersView.swift in Sources */,
 				7EC497772751738900F779F4 /* SharePlayActivity.swift in Sources */,
 				7EC497812751750400F779F4 /* Color+Extensions.swift in Sources */,
+				7EDD79972A361692008C3A55 /* ActivitySharingViewController.swift in Sources */,
 				7EC4975F2751030D00F779F4 /* GameView.swift in Sources */,
 				7EC49779275173D100F779F4 /* GameState.swift in Sources */,
 				7EC49785275175E100F779F4 /* GameFieldView.swift in Sources */,
@@ -416,7 +420,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,7 +451,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
